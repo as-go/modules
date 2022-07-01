@@ -1,6 +1,8 @@
 package main
 
-import "modules/pkg/telegram"
+import (
+	"github.com/as-go/modules/pkg/telegram"
+)
 
 func main() {
 	telegram.New()
